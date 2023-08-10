@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+</head>
+<body>
+    <h1>Market</h1>
+    <form id="user-entry-form">
+        <select id="muffin-flavor">
+            <option>Chocolate</option>
+            <option>Oatmeal</option>
+            <option>Blueberry</option>
+        </select>
+        <label for="user-name">Enter name: </label>
+        <input id="user-name" type="text" name="user-name">
+        <label>
+            <input type="radio" name="rank" value="teacher">
+            Teacher
+        </label><br />
+        <label>
+            <input type="radio" name="rank" value="student">
+            Student
+        </label><br />
+        <button type="submit">Submit queries</button>
+    </form>
+    <div id="showResultsDiv" class="hidden">
+        <h2>Result</h2>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
